@@ -1,13 +1,13 @@
 Spring:
   datasource:
-   url: jdbc:sqlserver://rajatserver.database.windows.net:1433;database=Azuredb;user=rajatchaurasia002@gmail.com@rajatserver;password=Rajat@5374;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-   username: rajatchaurasia002@gmail.com
-   password: Rajat@5374
+   url: jdbc:sqlserver://rajatserver2.database.windows.net:1433;database=Azure-Employees;user=rajat1234@rajatserver2;password=rajatchaurasiya@123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+   username: rajat1234
+   password: rajatchaurasiya@123
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
-      dialect: ogr.hibernate.dialect.SQLSever2012dialect
+     
       
 server:
   port: 9191
